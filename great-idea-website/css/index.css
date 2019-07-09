@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+body {
+  width: 90%;
+  margin: 10%;
+}
 nav {
   color: lightgray;
   display: inline-block;
@@ -76,8 +81,11 @@ nav a {
   margin: 20px;
 }
 
+
 .main h1 {
   font-size: 35px;
+  background-color: blue;
+  display: inline-block;
 }
 
 button {
@@ -86,21 +94,46 @@ button {
 }
 
 .top {
-  margin: 30px;  
+  margin-top: 3%;
+  border: 1px solid red;
+  height: 500px;
+  width: 1200px;
 }
 
 h2 {
   margin-top: 10px;  
 }
 
-p {
-  display: inline-block;
-  height: 150px;
-  width: 150px;
+
+.main {
+  width: 80%;
+  border: 1px solid red;
+}
+.roundImg {
+  border: 1px solid red;
+  background-color: yellow;
 }
 
-.toptext {
-  border-top: solid black 1px;
+.roundImg img {
+  width: 10%;
+}
+
+p {
+  margin: 5%;
+}
+
+.paragraphs {
+  display: inline-block;
+  height: 90%;
+  width: 45%;
+}
+
+.topText {
+  width: 80%;
+  height: 300px;
+  padding: 50px;
+  margin: 5% 10%;
+  border-top: 1px solid black;
 } 
 
 .middle-img {
