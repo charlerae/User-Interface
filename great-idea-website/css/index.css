@@ -67,11 +67,10 @@ h1, h2, h3, h4, h5 {
 
 
 body {
-  width: 90%;
-  margin: 10%;
+  margin: 5%;
 }
 nav {
-  color: lightgray;
+  /* color: lightgray; */
   display: inline-block;
   margin: 20px;
   text-decoration: none;
@@ -79,14 +78,15 @@ nav {
 
 nav a {
   margin: 20px;
+  color: gray;
 }
 
 
-.main h1 {
+/* .main h1 {
   font-size: 35px;
   background-color: blue;
-  display: inline-block;
-}
+  
+} */
 
 button {
   border-radius: 3px;
@@ -96,8 +96,7 @@ button {
 .top {
   margin-top: 3%;
   border: 1px solid red;
-  height: 500px;
-  width: 1200px;
+  
 }
 
 h2 {
@@ -106,41 +105,52 @@ h2 {
 
 
 .main {
-  width: 80%;
-  border: 1px solid red;
-}
-.roundImg {
-  border: 1px solid red;
-  background-color: yellow;
+  background-color: papayawhip;
+  /* display: inline-block; */
 }
 
-.roundImg img {
-  width: 10%;
-}
+/* .innovation h1 {
+  
+  background-color: purple;
+  display: inline;
+} */
 
-p {
-  margin: 5%;
+.snippet {
+  /* display: inline-block; */
 }
 
 .paragraphs {
   display: inline-block;
-  height: 90%;
   width: 45%;
 }
 
 .topText {
-  width: 80%;
-  height: 300px;
-  padding: 50px;
-  margin: 5% 10%;
+  height: 150px;
+  margin-top: 3%;
   border-top: 1px solid black;
+  box-align: center;
 } 
 
-.middle-img {
-  display: block;
-  margin-top: 20px; 
-  margin-bottom: 20px;
+.topText .paragraphs {
+  margin: 1%;
 }
+
+.middle-img {
+  margin-bottom: 2%;
+}
+
+.bottomText {
+  box-align: center;
+  padding: 2%;
+  margin-bottom: 3px;
+  border-bottom: 1px solid black;
+}
+
+ .bottomText .paragraphs {
+  /* background-color: pink; */
+  width: 31%;
+  margin: 1%; 
+} 
 
 .contact {
   margin-top: 20px;
@@ -148,5 +158,5 @@ p {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
