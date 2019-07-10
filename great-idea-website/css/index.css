@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 body {
   margin: 5%;
 }
+
 nav {
   /* color: lightgray; */
   display: inline-block;
@@ -81,13 +82,6 @@ nav a {
   color: gray;
 }
 
-
-/* .main h1 {
-  font-size: 35px;
-  background-color: blue;
-  
-} */
-
 button {
   border-radius: 3px;
   padding: 6px 15px;
@@ -96,24 +90,16 @@ button {
 .top {
   margin-top: 3%;
   border: 1px solid red;
-  
 }
 
 h2 {
   margin-top: 10px;  
 }
 
-
 .main {
   background-color: papayawhip;
   /* display: inline-block; */
 }
-
-/* .innovation h1 {
-  
-  background-color: purple;
-  display: inline;
-} */
 
 .snippet {
   /* display: inline-block; */
@@ -146,7 +132,7 @@ h2 {
   border-bottom: 1px solid black;
 }
 
- .bottomText .paragraphs {
+.bottomText .paragraphs {
   /* background-color: pink; */
   width: 31%;
   margin: 1%; 
