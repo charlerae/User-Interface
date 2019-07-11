@@ -89,7 +89,17 @@ button {
 
 .top {
   margin-top: 3%;
+  border: 1px solid blue;
+}
+
+.innovation {
+  display: inline-block;
+  width: 35%;
   border: 1px solid red;
+}
+
+.innovation img {
+  width: 100%;
 }
 
 h2 {
@@ -97,12 +107,9 @@ h2 {
 }
 
 .main {
-  background-color: papayawhip;
-  /* display: inline-block; */
-}
+  width: 100%;
+  border: 1px solid red;
 
-.snippet {
-  /* display: inline-block; */
 }
 
 .paragraphs {
